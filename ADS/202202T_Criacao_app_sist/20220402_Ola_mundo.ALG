@@ -7,6 +7,6 @@ Algoritmo "ola_mundo"
 Var
 
 Inicio
-Escreva("Olá Mundo")
+Escreva("Olá Mundo! Sou Marcus Vieira.")
 
 Fimalgoritmo
