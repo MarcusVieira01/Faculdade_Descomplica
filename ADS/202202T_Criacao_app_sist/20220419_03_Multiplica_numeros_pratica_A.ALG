@@ -1,7 +1,7 @@
-Algoritmo "20220419_02_Multiplica_numeros_pratica"
+Algoritmo "20220419_03_Multiplica_numeros_pratica_A"
 // Criação de aplicações e sistemas
 // Franklin Portela 
-// Descrição: Solicita via loop repita...até 5 números e multiplica-os
+// Descrição: Solicita via loop repita...até 10 números e multiplica-os
 // Autor: Marcus Vieira
 // Data atual: 19/04/2022
 Var
@@ -20,7 +20,7 @@ repita
    // Incremento de 1 no valor da variável contador, que controlará a quantidade
    // de iterações
    contador <- contador + 1
-ate contador > 4
+ate contador > 9
 //Exibição do valor da variável soma
 escreval("O resultado da multiplicação é:", mult)
 Fimalgoritmo
