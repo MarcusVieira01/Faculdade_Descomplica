@@ -1,6 +1,6 @@
 Algoritmo "20220423_01_Solicita_nome_nota_media"
 // Criação de aplicações e sistemas
-// Franklin Portela 
+// Franklin Portela
 // Descrição: Solicita 5 nomes, 5 notas e calcula a média da turma
 // Autor: Marcus Vieira
 // Data atual: 23/04/2022
