@@ -24,7 +24,6 @@ class exibeDados{
 		System.out.println("Meu gênero é " + genero);
 		System.out.println("Meu peso é " + peso + "kg");
 		
-		
 		//Método que seu fará o encerramento do programa
 		System.exit(0);
 	}
