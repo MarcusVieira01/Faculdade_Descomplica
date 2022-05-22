@@ -3,7 +3,7 @@
 //Importação de biblioteca javax.swing.*
 import javax.swing.*;
 //Declaração de classe principal
-class Estrutura_repeticao01{
+class Estrutura_repeticao02{
     //Declaração do método principal
     public static void main(String entrada[]){
         //Declaração de variáveis e incializações pertinentes
