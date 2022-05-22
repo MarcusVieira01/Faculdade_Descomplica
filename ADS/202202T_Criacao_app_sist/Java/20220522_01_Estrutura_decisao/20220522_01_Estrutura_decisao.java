@@ -46,8 +46,11 @@ class Estrutura_decisao01{
             //Uso da keyword default para definir o procedimento padrão para a situação de nenhum input do argumento op seja válido;
             default: JOptionPane.showMessageDialog(null, defMsg);
         }
-        //Uso de método da biblioteca swing para exibição do conteúdo da variável msg
-        JOptionPane.showMessageDialog(null, msg);
+        //Condicional que validará o valor da variável op
+        if(op ==1 || op ==2){
+            //Uso de método da biblioteca swing para exibição do conteúdo da variável msg
+            JOptionPane.showMessageDialog(null, msg);
+        }
         //Método que encerrará o programa
         System.exit(0);
     }
