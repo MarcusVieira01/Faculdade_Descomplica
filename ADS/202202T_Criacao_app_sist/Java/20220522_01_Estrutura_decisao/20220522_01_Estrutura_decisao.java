@@ -9,7 +9,7 @@ class Estrutura_decisao01{
     public static void main(String entrada []){
         //Declaração e incialização de variáveis
         int num1 = 0;
-        char op = '0';
+        char op = '0';//Inicialização em 0 pois se o usuário não digitar nenhum valor, entrará no default. Caso seja vazio, dará erro de runtime
         String msg = "";
         String inputMsg = "Digite um número inteiro";
         String opMsg = "Digite 1 para definir o numero como par ou impar\nDigite 2 para definir o número como positivo ou negativo";
