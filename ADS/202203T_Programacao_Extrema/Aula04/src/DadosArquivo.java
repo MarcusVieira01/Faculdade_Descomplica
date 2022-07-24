@@ -13,7 +13,7 @@ public class DadosArquivo {
             System.out.println("Caminho absoluto: " + arquivo.getAbsolutePath());
             System.out.println("Caminho: " + arquivo.getPath());
             System.out.println("Permissao de escrita? " + arquivo.canWrite());
-            System.out.println("Permissao de leitura?" + arquivo.canRead());
+            System.out.println("Permissao de leitura? " + arquivo.canRead());
             System.out.println("Tamanho: " + arquivo.length() + "b");
         }else{
             //Exibição de mensagem pertinente
