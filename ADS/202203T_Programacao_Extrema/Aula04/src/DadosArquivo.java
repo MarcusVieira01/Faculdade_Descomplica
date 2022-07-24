@@ -14,7 +14,7 @@ public class DadosArquivo {
             System.out.println("Caminho: " + arquivo.getPath());
             System.out.println("Permissao de escrita? " + arquivo.canWrite());
             System.out.println("Permissao de leitura?" + arquivo.canRead());
-            System.out.println("Tamanho: " + arquivo.length());
+            System.out.println("Tamanho: " + arquivo.length() + "kb");
         }else{
             //Exibição de mensagem pertinente
             System.out.println("Arquivo inválido!");
