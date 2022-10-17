@@ -1,0 +1,13 @@
+div, #div2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+.div{
+    background-color: orange;
+}
+
+#div{
+    background-color: blue;
+}

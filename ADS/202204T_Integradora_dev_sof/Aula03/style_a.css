@@ -1,0 +1,16 @@
+.paragrafo{
+    font-size: 26px;
+}
+
+#error{
+    color: red;
+    font-size: 12px;
+}
+
+.paragrafo2{
+    text-align: center;
+}
+
+.formula{
+    text-align: right;
+}

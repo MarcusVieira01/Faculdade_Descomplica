@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Evocação de arquivo externo de estilo -->
+    <link rel="stylesheet" href="/Aula01/style_d.css">
+
+    <!-- Uso de bloco com a tag <style></style> -->
+    <style>
+        #titulo1{
+            color: red;
+            font-weight: bolder;
+            font-size: 60px;
+        }
+
+    </style>
+
+    <title>Estilos</title>
+</head>
+<body>
+    <!-- Hierarquia de conteúdos -->
+    <h1 id="titulo1">H1</h1>
+    <h2 id="titulo2">H2</h2>
+    <h3>H3</h3>
+    <h4>H4</h4>
+    <h5>H5</h5>
+    <h6>H6</h6>
+
+    <!-- Links Podemos incluir outros elementos pois o anchor é um elemento container -->
+    <a href="https://alura.com.br" target="principal_Iframe">
+        <p style="color: red; font-size: 35px">Alura</p><!-- CSS in-line -->
+    </a>
+
+    <!-- Uso do iframe para evocar uma página via anchor, e na inicialização chamando uma página default -->
+    <iframe name="principal_Iframe" src="https://2mvprodtech.com" frameboarder="0" width="400" height="400px"></iframe>
+</body>
+</html>

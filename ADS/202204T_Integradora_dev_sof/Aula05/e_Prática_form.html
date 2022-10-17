@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 - Prática de formulário</title>
+</head>
+<body>
+    <form action="https://pruu.herokuapp.com/dump/test" method="POST">
+        <fieldset>
+            <div>
+                <label for="pais">Pais *</label>
+                <br>
+                <select id="pais" name="pais">
+                    <option selected value="br">Brasil</option>
+                    <option value="ar">Argentina</option>
+                </select>
+            </div>
+    
+            <div>
+                <label for="cep">CEP *</label>
+                <br>
+                <input id="cep" name="cep" type="text" value="60335-010" maxlength="10">
+            </div>
+    
+            <div>
+                <label for="endereco">Endereço *</label>
+                <br>
+                <input id="endereco" name="endereco" type="text">
+            </div>
+    
+            <div>
+                <label for="numero">Número *</label>
+                <br>
+                <input id="numero" name="numero" type="number">
+            </div>
+            
+            <div>
+                <label for="complemento">Complemento </label>
+                <br>
+                <input id="complemento" name="complemento" type="text">
+            </div>
+    
+            <div>
+                <label for="uf">UF *</label>
+                <br>
+                <select id="uf" name="uf">
+                    <option value="SP">São Paulo</option>
+                    <option selected value="MG">Minas Gerais</option>
+                </select>
+            </div>
+    
+            <div>
+                <label for="cidade">Cidade *</label>
+                <br>
+                <select id="cidade" name="cidade">
+                    <option value="SP">São Paulo</option>
+                    <option selected value="MG">Belo Horizonte</option>
+                </select>
+            </div>
+            
+            <div>
+                <label for="bairro">Bairro *</label>
+                <br>
+                <input id="bairro" name="bairro" type="text">
+            </div>
+    
+            <button type="submit">Atualizar</button>
+        </fieldset>
+    </form>
+
+    <hr>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 05 - Butons</title>
+</head>
+<body>
+    <form action="https://pruu.herokuapp.com/dump/test" method="post">
+        <fieldset>
+            <input id="assunto_email" name="assunto" type="text">
+            <input id="senha" name="pswd"type="password">
+            <input id="idade" name="idade"type="number">
+            <input id="email" name="email"type="email">
+            <input id="nascimento" name="nascimento"type="date">
+            <input id="cor_favorita" name="cor_favorita"type="color">
+        </fieldset>
+        
+        <br><br>
+
+        <fieldset>
+            <select id="motivo" name="motivo">
+                <option value="sem_motivo">Sem Motivo</option>
+                <option value="pq_sim">Por que sim</option>
+                <option selected value="elogio">Aula legal</option>
+                <option value="reclamacao">Aula péssima</option>
+            </select>
+
+            <br><br>
+
+            <input id="arquivo" name="arquivo" type="file">
+            <textarea id="observacao" name="obs" cols="30" rows="10"></textarea>
+
+            <br><br>
+        </fieldset>
+        <button type="submit">Enviar</button>
+    </form>    
+</body>
+</html>
