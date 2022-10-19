@@ -1,0 +1,10 @@
+.texto{
+    color:blueviolet;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-variant: small-caps;
+    text-decoration: overline wavy red;
+    letter-spacing: 15px;
+    text-shadow: 10px 10px 10px blue;
+}

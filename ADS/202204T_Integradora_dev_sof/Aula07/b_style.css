@@ -1,0 +1,29 @@
+.app{
+    display: flex;
+    flex-direction: column;
+    background-color: turquoise;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: gray;
+}
+
+.menu_button{
+    background-color: greenyellow;
+}
+
+.logo{
+    background-color: red;
+}
+
+.search_button{
+    background-color: blue;
+}
+
+.content{
+    background-color: tomato;
+    flex-grow: 0.9;
+}
