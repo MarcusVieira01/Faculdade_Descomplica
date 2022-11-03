@@ -7,4 +7,6 @@
 
 ## Anotações
 
-* Aula 10 não possui arquivos
+* Aula 2 não possui arquivo de P&R1
+* Aula 6 possui arquivo de P&R2
+* Aula 10 não possui arquivos de aula, apenas do P&R 3
