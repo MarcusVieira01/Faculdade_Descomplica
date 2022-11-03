@@ -106,14 +106,14 @@
                         </ul>
 
                         <!--Trigger do modal-->
-                        <a href="#" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Free plan Payment</a>
+                        <a href="#" class="btn btn-primary w-100" id="btn-free" data-bs-toggle="modal" data-bs-target="#freeModal">Free plan Payment</a>
                         <!--Modal-->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="freeModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <form>
                                         <div class="modal-header">
-                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Payment details</h1>
+                                            <h1 class="modal-title fs-5" id="exampleModalLabel">Free Payment</h1>
                                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                         </div>
                                         <div class="modal-body">
@@ -173,17 +173,36 @@
                             </li>
                         </ul>
                         <!--Modal Trigger-->
-                        <a href="#" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">PRO plan Payment</a>
+                        <a href="#" class="btn btn-primary w-100"  id="btn-pro" data-bs-toggle="modal" data-bs-target="#proModal">Pro plan Payment</a>
                         <!--Modal-->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="proModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Payment title</h1>
+                                        <h1 class="modal-title fs-2" id="exampleModalLabel">Pro Payment</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Este seria um texto sobre como desejaria realizar o pagamento
+                                        <div class="mb-2">
+                                            <label for="holder_name" class="form-label">Holder</label>
+                                            <input name="holder_name" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="card_number" class="form-label">Card Number</label>
+                                            <input name="card_number" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="exp_date" class="form-label">Expiration Date</label>
+                                            <input name="exp_date" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="cvv" class="form-label">CVV</label>
+                                            <input name="cvv" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="equipe" class="form-label">Equipe</label>
+                                            <input name="equipe" type="text" class="form-control">
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -222,17 +241,40 @@
                             </li>
                         </ul>
                         <!--Modal Trigger-->
-                        <a href="#" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">Enterprise plan Payment</a>
+                        <a href="#" class="btn btn-primary w-100"  id="btn-enterprise" data-bs-toggle="modal" data-bs-target="#enterpriseModal">Enterprise plan Payment</a>
                         <!--Modal-->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal fade" id="enterpriseModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
                             <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Payment title</h1>
+                                        <h1 class="modal-title fs-2" id="exampleModalLabel">Enterprise Payment</h1>
                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                     </div>
                                     <div class="modal-body">
-                                        Este seria um texto sobre como desejaria realizar o pagamento
+                                        <div class="mb-2">
+                                            <label for="holder_name" class="form-label">Holder</label>
+                                            <input name="holder_name" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="card_number" class="form-label">Card Number</label>
+                                            <input name="card_number" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="exp_date" class="form-label">Expiration Date</label>
+                                            <input name="exp_date" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="cvv" class="form-label">CVV</label>
+                                            <input name="cvv" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="equipe" class="form-label">Equipe</label>
+                                            <input name="equipe" type="text" class="form-control">
+                                        </div>
+                                        <div class="mb-2">
+                                            <label for="empresa" class="form-label">Empresa</label>
+                                            <input name="empresa" type="text" class="form-control">
+                                        </div>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
