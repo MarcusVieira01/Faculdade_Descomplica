@@ -5,6 +5,6 @@
 3. Aplicação de BootStrap;
 4. Aplicação de JS;
 
-## Anotações:
+## Anotações
 
 * Aula 10 não possui arquivos
