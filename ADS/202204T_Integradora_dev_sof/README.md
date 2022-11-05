@@ -1,4 +1,4 @@
-# Prática integradora de desenvolvimento de software
+# Prática Integradora de Desenvolvimento de Software
 
 1. Aplicação de HTML;
 2. Aplicação de CSS;
