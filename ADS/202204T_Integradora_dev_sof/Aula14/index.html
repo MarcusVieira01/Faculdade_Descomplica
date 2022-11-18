@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <title>Soma maior que 10?</title>
+    
+</head>
+
+<body style="background-color: #b0bbf3">
+    <nav class="navbar navbar-dark mb-3 ps-3" style="background-color:#6874a8;">
+        <div class="container-fluid">
+            <span class="navbar-brand h1 pt-2">Soma maior que 10?</span>
+        </div>
+    </nav>
+
+    <div class="col-sm-6">
+        <div class="input-group ps-3 mt-4">
+            <button class="btn text-white text-center fw-bolder" type="button" id="button-addon1" onclick="soma()" style="background-color: #6874a8">Click para Somar</button>
+            <input type="number" aria-label="First name" class="form-control text-sm-center" placeholder="Insira o primeiro valor" id="numeroA" >
+            <input type="number" aria-label="Last name" class="form-control text-sm-center" placeholder="Insira o segundo valor" id="numeroB">
+        </div>
+    </div>
+
+    <div class="input-group-text m-3 col-sm-4 fw-bolder text-white" id="resposta" style="background-color: #8c98ce;"></div>
+    
+</body>
+<!--Script que fará a conferência da soma dos valores de input e exibirá a mensagem pertinente-->
+<script>
+    //Declaração de função
+    function soma(){
+    //Declaração de variávei e atribuição do valor de retorno da captura do elemento input com id pertinente
+    var numeroA = document.querySelector("#numeroA").value;
+    var numeroB = document.querySelector("#numeroB").value;
+    //Declaração de variável e atribuição do resultado da expressãom matemática, após conversão dos valore para interger
+    var soma = parseInt(numeroA) + parseInt(numeroB);
+    //Declaração de variável e atribuição do elemento HTML capturado via método
+    var elemento = document.getElementById("resposta");
+    //Condicional que caso para cada caso, injetará o HTML pertinente
+    if(soma > 10){
+        elemento.innerHTML = "Valor de soma acima de 10"
+    }else{
+        elemento.innerHTML = "Valor de soma abaixo de 10"
+    }
+}
+</script>
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" 
+integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous">
+</script>
+
+</html>
