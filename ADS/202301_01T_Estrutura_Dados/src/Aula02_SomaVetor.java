@@ -20,5 +20,8 @@ public class Aula02_SomaVetor {
 
         //Exibição do valor da variável soma
         JOptionPane.showMessageDialog(null, "O valor da soma dos 100 elementos é " + soma);
+
+        //Encerramento do programa
+        System.exit(0);
     }
 }
