@@ -1,6 +1,6 @@
 //Declarção de classe
 public class Aula03_QuickSort {
-    //Declaração de método principal
+    //Declaração de método principal onde p é a primeira posição e q a última posição do vetor
     public static void main(String[] args) {
         //Declaração de variáveis
         int vetor[] = {12, 5, -3, 4, 0, 21, 8, -7, 9, 6};
@@ -14,7 +14,7 @@ public class Aula03_QuickSort {
         System.exit(0);
     }
 
-    //Declaração de método de execução do Quick Sort
+    //Declaração de método de execução do Quick Sort 
     public static void quickSort(int p, int q, int vetor[]){
         //Declaração de variáveis
         int x;
