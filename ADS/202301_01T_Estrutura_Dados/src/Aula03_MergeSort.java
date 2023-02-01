@@ -1,4 +1,4 @@
-public class Aula04_MergeSort {
+public class Aula03_MergeSort {
     //Declaração de método principal
     public static void main(String[] args) {
         //Declaração de vetor com os valores de iniciaçização
